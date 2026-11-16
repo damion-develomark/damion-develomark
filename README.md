@@ -27,11 +27,55 @@
 <table>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://www.lionsdencoffeeshop.com"><img src="portfolio/lions-den-coffee.jpg" alt="Lions Den Coffee Shop homepage" /></a>
+      <br /><b><a href="https://www.lionsdencoffeeshop.com">Lions Den Coffee Shop</a></b>
+      <br /><sub>Italian coffee shop in Southington, CT, on a custom CMS</sub>
+      <br />
+      <img src="https://img.shields.io/badge/Performance-72-ffa400?style=flat-square" alt="Performance 72" />
+      <img src="https://img.shields.io/badge/Accessibility-97-0cce6b?style=flat-square" alt="Accessibility 97" />
+      <img src="https://img.shields.io/badge/Best%20Practices-100-0cce6b?style=flat-square" alt="Best Practices 100" />
+      <img src="https://img.shields.io/badge/SEO-100-0cce6b?style=flat-square" alt="SEO 100" />
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://www.vincentrappoccio.com"><img src="portfolio/vincent-rappoccio.jpg" alt="Vincent Rappoccio homepage" /></a>
+      <br /><b><a href="https://www.vincentrappoccio.com">Vincent Rappoccio</a></b>
+      <br /><sub>Personal brand site for a marketer and race car driver</sub>
+      <br />
+      <img src="https://img.shields.io/badge/Performance-82-ffa400?style=flat-square" alt="Performance 82" />
+      <img src="https://img.shields.io/badge/Accessibility-100-0cce6b?style=flat-square" alt="Accessibility 100" />
+      <img src="https://img.shields.io/badge/Best%20Practices-100-0cce6b?style=flat-square" alt="Best Practices 100" />
+      <img src="https://img.shields.io/badge/SEO-100-0cce6b?style=flat-square" alt="SEO 100" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://ascendfunctionaldentistry.vercel.app"><img src="portfolio/ascend-dentistry.jpg" alt="Ascend Functional Dentistry homepage" /></a>
+      <br /><b><a href="https://ascendfunctionaldentistry.vercel.app">Ascend Functional Dentistry</a></b>
+      <br /><sub>Biological and functional dentistry in Trumbull, CT</sub>
+      <br />
+      <img src="https://img.shields.io/badge/Performance-93-0cce6b?style=flat-square" alt="Performance 93" />
+      <img src="https://img.shields.io/badge/Accessibility-100-0cce6b?style=flat-square" alt="Accessibility 100" />
+      <img src="https://img.shields.io/badge/Best%20Practices-100-0cce6b?style=flat-square" alt="Best Practices 100" />
+      <img src="https://img.shields.io/badge/SEO-100-0cce6b?style=flat-square" alt="SEO 100" />
+    </td>
+    <td width="50%" valign="top">
       <a href="https://www.porschespilates.com"><img src="portfolio/porsches-pilates.jpg" alt="Porsches & Pilates homepage" /></a>
       <br /><b><a href="https://www.porschespilates.com">Porsches & Pilates</a></b>
-      <br /><sub>Event site for a cars-and-Pilates morning in Prospect, CT</sub>
+      <br /><sub>Event site for a charity cars-and-Pilates morning in Prospect, CT</sub>
       <br />
-      <img src="https://img.shields.io/badge/Performance-96-0cce6b?style=flat-square" alt="Performance 96" />
+      <img src="https://img.shields.io/badge/Performance-93-0cce6b?style=flat-square" alt="Performance 93" />
+      <img src="https://img.shields.io/badge/Accessibility-100-0cce6b?style=flat-square" alt="Accessibility 100" />
+      <img src="https://img.shields.io/badge/Best%20Practices-100-0cce6b?style=flat-square" alt="Best Practices 100" />
+      <img src="https://img.shields.io/badge/SEO-100-0cce6b?style=flat-square" alt="SEO 100" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://pur-therapeutics.develomark-clients.workers.dev"><img src="portfolio/pur-therapeutics.jpg" alt="Pür Therapeutics homepage" /></a>
+      <br /><b><a href="https://pur-therapeutics.develomark-clients.workers.dev">Pür Therapeutics</a></b>
+      <br /><sub>Advanced dentistry and TMJ care in Metairie, LA</sub>
+      <br />
+      <img src="https://img.shields.io/badge/Performance-83-ffa400?style=flat-square" alt="Performance 83" />
       <img src="https://img.shields.io/badge/Accessibility-100-0cce6b?style=flat-square" alt="Accessibility 100" />
       <img src="https://img.shields.io/badge/Best%20Practices-100-0cce6b?style=flat-square" alt="Best Practices 100" />
       <img src="https://img.shields.io/badge/SEO-100-0cce6b?style=flat-square" alt="SEO 100" />
@@ -41,7 +85,7 @@
       <br /><b><a href="https://glowback.ctskin.com">Pure Skin: Glow Back to the 80s</a></b>
       <br /><sub>Retro holiday party site for a Connecticut med spa</sub>
       <br />
-      <img src="https://img.shields.io/badge/Performance-94-0cce6b?style=flat-square" alt="Performance 94" />
+      <img src="https://img.shields.io/badge/Performance-93-0cce6b?style=flat-square" alt="Performance 93" />
       <img src="https://img.shields.io/badge/Accessibility-96-0cce6b?style=flat-square" alt="Accessibility 96" />
       <img src="https://img.shields.io/badge/Best%20Practices-96-0cce6b?style=flat-square" alt="Best Practices 96" />
       <img src="https://img.shields.io/badge/SEO-100-0cce6b?style=flat-square" alt="SEO 100" />
