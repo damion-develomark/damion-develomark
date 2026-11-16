@@ -23,7 +23,8 @@ jobs:
           node-version: 22
       - name: Screenshot and audit the sites
         run: |
-          pip install --quiet pillow
+          pip install --quiet pillow playwright
+          python3 -m playwright install --with-deps chromium
           python3 scripts/portfolio.py
       - name: Commit if anything changed
         run: |

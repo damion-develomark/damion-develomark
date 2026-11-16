@@ -5,7 +5,7 @@ on:
     - cron: "0 1 * * *"
   workflow_dispatch:
   push:
-    paths: [.github/workflows/skyline.yml]
+    paths: [.github/workflows/skyline.yml, scripts/trim_skyline.py]
 
 permissions:
   contents: write
@@ -21,6 +21,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+      - name: Remove the language pie and the radar
+        run: python3 scripts/trim_skyline.py
       - name: Commit if anything changed
         run: |
           git add profile-3d-contrib

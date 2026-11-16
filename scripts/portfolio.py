@@ -5,15 +5,23 @@ from PIL import Image
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SITES = json.loads((ROOT / "portfolio/sites.json").read_text())
-CHROME = "google-chrome"
 CATEGORIES = [("performance", "Performance"), ("accessibility", "Accessibility"),
               ("best-practices", "Best Practices"), ("seo", "SEO")]
 
 def screenshot(site):
+    """Real-time wait (not virtual time) so intro animations finish first."""
+    from playwright.sync_api import sync_playwright
     png = ROOT / f"portfolio/{site['slug']}.png"
-    subprocess.run([CHROME, "--headless=new", "--no-sandbox", "--hide-scrollbars",
-                    "--window-size=1440,900", "--virtual-time-budget=30000",
-                    f"--screenshot={png}", site["url"]], check=True, timeout=120)
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        page = browser.new_page(viewport={"width": 1440, "height": 900})
+        try:
+            page.goto(site["url"], wait_until="networkidle", timeout=60000)
+        except Exception:
+            page.goto(site["url"], wait_until="load", timeout=60000)
+        page.wait_for_timeout(8000)
+        page.screenshot(path=str(png))
+        browser.close()
     img = Image.open(png).convert("RGB")
     img.thumbnail((960, 600))
     img.save(ROOT / f"portfolio/{site['slug']}.jpg", quality=82, optimize=True, progressive=True)
