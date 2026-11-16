@@ -1,0 +1,42 @@
+name: Portfolio
+
+on:
+  schedule:
+    # Mondays, 01:00 UTC
+    - cron: "0 1 * * 1"
+  workflow_dispatch:
+  push:
+    paths: [portfolio/sites.json, scripts/portfolio.py, .github/workflows/portfolio.yml]
+
+permissions:
+  contents: write
+
+concurrency: portfolio
+
+jobs:
+  portfolio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - name: Screenshot and audit the sites
+        run: |
+          pip install --quiet pillow
+          python3 scripts/portfolio.py
+      - name: Commit if anything changed
+        run: |
+          git add README.md portfolio
+          if git diff --cached --quiet; then
+            echo "Portfolio unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --quiet --message "portfolio: refresh screenshots and Lighthouse scores"
+          for attempt in 1 2 3; do
+            git pull --rebase --quiet && git push --quiet && exit 0
+            sleep 5
+          done
+          exit 1

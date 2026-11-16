@@ -1,0 +1,38 @@
+name: Skyline
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+  push:
+    paths: [.github/workflows/skyline.yml]
+
+permissions:
+  contents: write
+
+concurrency: skyline
+
+jobs:
+  skyline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Commit if anything changed
+        run: |
+          git add profile-3d-contrib
+          if git diff --cached --quiet; then
+            echo "Skyline unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --quiet --message "skyline: redraw 3D contributions"
+          for attempt in 1 2 3; do
+            git pull --rebase --quiet && git push --quiet && exit 0
+            sleep 5
+          done
+          exit 1

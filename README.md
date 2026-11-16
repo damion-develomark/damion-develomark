@@ -1,6 +1,12 @@
 <h1 align="center">Hi, I'm Damion</h1>
 
 <p align="center">
+  <a href="https://github.com/Develomark-Agency">
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=2800&pause=1000&color=4493F8&center=true&vCenter=true&width=640&lines=I+build+websites+for+dentists.;I+build+websites+for+med+spas.;I+build+websites+for+caf%C3%A9s.;I+build+websites+for+studios.;Fast.+Animated.+Built+to+rank." alt="I build websites for dentists, med spas, cafés, and studios." />
+  </a>
+</p>
+
+<p align="center">
   I build fast, modern websites for local businesses at <a href="https://github.com/Develomark-Agency"><b>@Develomark-Agency</b></a>.
 </p>
 
@@ -15,6 +21,11 @@
 - <img src="icons/sparkles.svg" width="18" height="18" align="top" alt="" />&nbsp;Smooth motion and interaction with GSAP, Motion, and Lenis
 - <img src="icons/chart-column.svg" width="18" height="18" align="top" alt="" />&nbsp;Analytics and measurement wired in from day one
 
+### Recent work
+
+<!-- PORTFOLIO:START -->
+<!-- PORTFOLIO:END -->
+
 ### Tech stack
 
 <p>
@@ -22,6 +33,13 @@
 </p>
 
 ### Activity
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg" />
+    <img src="profile-3d-contrib/profile-green-animate.svg" alt="My contributions as a 3D skyline" />
+  </picture>
+</p>
 
 <p align="center">
   <picture>
