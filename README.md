@@ -24,6 +24,32 @@
 ### Recent work
 
 <!-- PORTFOLIO:START -->
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://www.porschespilates.com"><img src="portfolio/porsches-pilates.jpg" alt="Porsches & Pilates homepage" /></a>
+      <br /><b><a href="https://www.porschespilates.com">Porsches & Pilates</a></b>
+      <br /><sub>Event site for a cars-and-Pilates morning in Prospect, CT</sub>
+      <br />
+      <img src="https://img.shields.io/badge/Performance-95-0cce6b?style=flat-square" alt="Performance 95" />
+      <img src="https://img.shields.io/badge/Accessibility-100-0cce6b?style=flat-square" alt="Accessibility 100" />
+      <img src="https://img.shields.io/badge/Best%20Practices-100-0cce6b?style=flat-square" alt="Best Practices 100" />
+      <img src="https://img.shields.io/badge/SEO-100-0cce6b?style=flat-square" alt="SEO 100" />
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://glowback.ctskin.com"><img src="portfolio/pure-skin-glowback.jpg" alt="Pure Skin: Glow Back to the 80s homepage" /></a>
+      <br /><b><a href="https://glowback.ctskin.com">Pure Skin: Glow Back to the 80s</a></b>
+      <br /><sub>Holiday party site for a Connecticut skincare studio</sub>
+      <br />
+      <img src="https://img.shields.io/badge/Performance-94-0cce6b?style=flat-square" alt="Performance 94" />
+      <img src="https://img.shields.io/badge/Accessibility-96-0cce6b?style=flat-square" alt="Accessibility 96" />
+      <img src="https://img.shields.io/badge/Best%20Practices-96-0cce6b?style=flat-square" alt="Best Practices 96" />
+      <img src="https://img.shields.io/badge/SEO-100-0cce6b?style=flat-square" alt="SEO 100" />
+    </td>
+  </tr>
+</table>
+
+<sub>Lighthouse scores are mobile, median of three runs, refreshed weekly.</sub>
 <!-- PORTFOLIO:END -->
 
 ### Tech stack
