@@ -12,7 +12,7 @@ CATEGORIES = [("performance", "Performance"), ("accessibility", "Accessibility")
 def screenshot(site):
     png = ROOT / f"portfolio/{site['slug']}.png"
     subprocess.run([CHROME, "--headless=new", "--no-sandbox", "--hide-scrollbars",
-                    "--window-size=1440,900", "--virtual-time-budget=10000",
+                    "--window-size=1440,900", "--virtual-time-budget=30000",
                     f"--screenshot={png}", site["url"]], check=True, timeout=120)
     img = Image.open(png).convert("RGB")
     img.thumbnail((960, 600))
