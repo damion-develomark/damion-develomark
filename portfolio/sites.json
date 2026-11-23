@@ -4,11 +4,11 @@
   {"slug": "vincent-rappoccio", "name": "Vincent Rappoccio", "url": "https://www.vincentrappoccio.com",
    "blurb": "Personal brand site for a marketer and race car driver"},
   {"slug": "ascend-dentistry", "name": "Ascend Functional Dentistry", "url": "https://ascendfunctionaldentistry.vercel.app",
-   "blurb": "Biological and functional dentistry in Trumbull, CT"},
+   "blurb": "Biological and functional dentistry in Trumbull, CT", "preview": true},
   {"slug": "porsches-pilates", "name": "Porsches & Pilates", "url": "https://www.porschespilates.com",
    "blurb": "Event site for a charity cars-and-Pilates morning in Prospect, CT"},
   {"slug": "pur-therapeutics", "name": "Pür Therapeutics", "url": "https://pur-therapeutics.develomark-clients.workers.dev",
-   "blurb": "Advanced dentistry and TMJ care in Metairie, LA"},
+   "blurb": "Advanced dentistry and TMJ care in Metairie, LA", "preview": true},
   {"slug": "pure-skin-glowback", "name": "Pure Skin: Glow Back to the 80s", "url": "https://glowback.ctskin.com",
    "blurb": "Retro holiday party site for a Connecticut med spa"}
 ]
